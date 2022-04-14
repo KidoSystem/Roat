@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #1e1e2b;
+}
+.box_svg {
+  position: absolute;
+  width: 8vw;
+  top: 10vw;
+  left: 10vw;
+}
+#moveBlock {
+  position: absolute;
+  z-index: 1000;
+  width: 4vw;
+}
+
+.arrow_svg {
+  transform: rotate(360deg);
+  height: 100%;
+  margin: 1vh;
+  /*margin-top: 20px;*/
+}
+
+.arrow_svg:not(:last-of-type) {
+  /*margin-right: 25px;*/
+}
+
+.arrow {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #2e303f;
+  /*width: 40vw;*/
+  height: 8vh;
+  /*margin: 0 auto;*/
+  /*margin-top: 20px;*/
+  /*margin-bottom: 150px;*/
+  border-radius: 3vh;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+}
